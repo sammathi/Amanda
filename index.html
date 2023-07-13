@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rat Under Paper</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      background-image: url("SPLASH copy.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    #container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 100vh;
+    }
+
+    #title {
+      text-align: center;
+      font-size: 48px; /* Double the font size */
+      margin-top: 20px;
+    }
+
+    #links-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px; /* Add margin-top to create space under the title */
+    }
+
+    .link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px; /* Adjust the width as needed */
+      height: 150px; /* Adjust the height as needed */
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div id="links-container">
+      <a class="link" href="link_colour.html"><img src="homelink01.jpg" alt="Colour"></a>
+      <a class="link" href="link_bw.html"><img src="homelink02.jpg" alt="Black and White"></a>
+      <a class="link" href="link_dog.html"><img src="homelink03.jpg" alt="Dog"></a>
+      <a class="link" href="link_doinkery.html"><img src="homelink04.jpg" alt="Doinkery"></a>
+      <a class="link" href="link_hi.html"><img src="homelink05.jpg" alt="Hi"></a>
+      <a class="link" href="link_losergirl.html"><img src="homelink06.jpg" alt="Loser Girl"></a>
+    </div>
+  </div>
+</body>
+</html>
